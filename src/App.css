@@ -1,0 +1,138 @@
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+} */
+
+
+/* App.css */
+
+.parent{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+
+}
+.navbar{
+  height: 100px;
+  width:100vw;
+  overflow: hidden;
+  padding: 10px;
+
+}
+
+h1{
+  font-size: large;
+  padding-top: 100px;
+  color: darkorange;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 10rem;
+  overflow: hidden;
+  font-family: "Sacramento", cursive;
+  font-weight: 400;
+  font-style:normal;
+  
+}
+
+p {
+  color: darkorange;
+  font-family: "Sacramento", cursive;
+  font-size: 4rem;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+}
+
+.user-input {
+  display: flex; /* Use Flexbox */
+  justify-content: center; /* Horizontally center the items */
+  align-items: center; /* Vertically center the items */
+  flex-direction: column; /* Arrange items vertically */
+  
+  
+}
+input {
+  height: 5rem;
+  width: 20em;
+  overflow: hidden;
+  border: solid darkorange 5px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  margin-top: 20px;
+  background: none;
+  color: black;
+  font-family: cursive;
+  font-size: 1.2rem;
+  outline: none;
+  
+
+}
+
+@media only screen and (max-width: 1024px) {
+  h1 {
+    font-size: 8rem; /* Adjust font size for iPads */
+    margin: 20px;
+  }
+  .navbar {
+    height: 20px;
+    padding-bottom: 10px;
+  }
+}
+
+/* Media query for mobile phones */
+@media only screen and (max-width: 768px) {
+  h1 {
+    font-size: 6rem; /* Adjust font size for mobile phones */
+    margin: 20px;
+  }
+  .navbar {
+    height: 10px;
+    padding-bottom: 10px;
+  }
+}
+
+
+
+.sacramento-regular {
+  font-family: "Sacramento", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
